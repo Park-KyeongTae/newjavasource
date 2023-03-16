@@ -1,0 +1,16 @@
+package thread;
+
+//thread 작성
+public class BigLetters extends Thread{
+
+	@Override
+	public void run() {
+		// 같이 수행할 코드를 작성
+		// a-z 까지 출력
+		for (char ch = 'A'; ch <= 'Z'; ch++) {
+			
+			System.out.print(ch);
+		}
+	
+	}
+}
