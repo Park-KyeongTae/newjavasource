@@ -9,7 +9,7 @@ public abstract class Product {
 		this.name = name;
 		this.price = price;
 	}
-	public void printDatail() {
+	public void printDetail() {
 		System.out.println("제품명 : "+name);
 		System.out.println("가격 : "+price);
 	}

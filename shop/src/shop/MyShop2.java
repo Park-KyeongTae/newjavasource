@@ -79,7 +79,7 @@ public class MyShop2 implements IShop{
 		//products 배열 출력
 		for (int i = 0; i < products.length; i++) {
 			System.out.printf("[%d]",i);
-			products[i].printDatail();
+			products[i].printDetail();
 			products[i].printExtra();
 		}
 		System.out.println("[h] 메인 화면");
