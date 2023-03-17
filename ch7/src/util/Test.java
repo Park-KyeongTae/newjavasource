@@ -6,11 +6,11 @@ public class Test {
 	private int no;
 	private String tel;
 
-	public void print() {}
-		public int sum() {
-			return 0;
-		}
-	
-}
+	public void print() {
+	}
 
- 
+	public int sum() {
+		return 0;
+	}
+
+}
